@@ -13,17 +13,7 @@ Type ./OledMonitor to run this monitor. Several system information will be displ
 
 There will be 8 lines on the screen. Description are:
 
-Line 1: Date and time
-
-Line 2: Chip temperature
-
-Line 3: Load average
-
-Line 4 & Line 5: Network traffic on eth0
-
-Line 6: Free space of root filesystem
-
-Line 7: USB disk free space percentage (sda1 & sdb1)
+Line 1: Date and time<br>Line 2: Chip temperature<br>Line 3: Load average<br>Line 4 & Line 5: Network traffic on eth0<br>Line 6: Free space of root filesystem<br>Line 7: USB disk free space percentage (sda1 & sdb1)
 
 If you don't have USB disk connect to RaspberryPi, you can modify the function or just remove GetSDA1SDB1()
 
