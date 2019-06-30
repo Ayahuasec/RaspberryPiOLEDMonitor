@@ -27,4 +27,8 @@ Line 7: USB disk free space percentage (sda1 & sdb1)
 
 If you don't have USB disk connect to RaspberryPi, you can modify the function or just remove GetSDA1SDB1()
 
+In the night, the fresh frequency will decrease. To reduce filesystem read operation, freshing filesystem space usage is also lowered then other monitor function.
+
+If you want to run this program on background, use command 'screen' or 'nohup'.
+
 This program currently only tested successfully on Raspberry 3B.
